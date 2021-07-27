@@ -1,0 +1,133 @@
+.movingHead {
+    animation: moveHead 4s infinite;
+}
+.movingTail{
+    animation: moveTail 1s infinite;
+}
+.movingLeftEar {
+    animation: moveLeftEar 6s infinite;
+}
+.movingRightEar {
+    animation: moveRightEar 6s infinite;
+}
+.movingMidDot {
+    animation: moveMidDot 2s infinite;
+}
+.movingSingleEarLeft {
+    animation: earLeft 3s infinite;
+}
+.movingSingleEarRight {
+    animation: earRight 3s infinite;
+}
+.movingPaw {
+    animation: movePaw 3s infinite;
+}
+
+
+@keyframes moveHead {
+    0%, 50%, 100%, 56%, 89% {
+        transform: rotate(0deg);
+    }
+    51%, 55% {
+        transform: rotate(5deg);
+    }
+    90%, 98% {
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes moveTail {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(30deg);
+    }
+    60% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
+
+@keyframes moveLeftEar {
+    0%, 50% {
+        transform: rotate(170deg);
+    }
+    51%, 55% {
+        transform: rotate(175deg);
+    }
+    56%, 89% {
+        transform: rotate(170deg);
+    }
+    90%, 98% {
+        transform: rotate(165deg);
+    }
+    100% {
+        transform: rotate(170deg);
+    }
+}
+
+@keyframes moveRightEar {
+    0% {
+        transform: scale(1.4);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes earLeft {
+    0%, 50% {
+        transform: scale(-1,1) rotate(170deg);
+    }
+    51%, 55% {
+        transform: scale(-1,1) rotate(175deg);
+    }
+    56%, 100% {
+        transform: scale(-1,1) rotate(170deg);
+    }
+}
+
+@keyframes earRight {
+    0%, 50% {
+        transform: rotate(170deg);
+    }
+    51%, 55% {
+        transform: rotate(175deg);
+    }
+    56%, 100% {
+        transform: rotate(170deg);
+    }
+}
+
+
+@keyframes movePaw {
+    0%, 50% {
+        transform: rotate(170deg);
+    }
+    51%, 55% {
+        transform: rotate(175deg);
+    }
+    56%, 100% {
+        transform: rotate(170deg);
+    }
+}
+
+
+
+@keyframes moveMidDot {
+    0% {
+        transform: rotate(0deg);
+    }
+    30% {
+        transform: rotate(30deg);
+    }
+    60% {
+        transform: rotate(-30deg);
+    }
+    100% {
+        transform: rotate(5deg);
+    }
+}
